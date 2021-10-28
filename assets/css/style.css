@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400;1,500&display=swap');
+
+/* 
+Die verwendete Schriftart: Raleway
+Die Farbe des Button “Read more” ist: #745cf9
+Die Farbe des Button:hover “Read more” ist: #5234f9
+
+*/
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Raleway;
+}
+
+header{
+    height: 76px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid #666;
+    border-top: 2px solid #666;
+    padding: 1.6%;
+    align-items: baseline;
+}
+
+header nav ul {
+    display: flex; 
+    list-style: none; 
+    justify-content: space-between; 
+    width: 50%; 
+}
+
+nav ul li{
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li a{
+    display: flex;
+    color: #333;
+}
+
+nav ul li a:hover{
+    color: #337ab7;
+}
+
+a{
+    text-decoration: none;
+}
+
+#demo{
+    display: flex;
+    font-size: 24px;
+    color: #666;
+}
+
+#demo:hover{
+    color: #333;
+}
+
+main{
+    background: url(../img/1.jpeg) center/cover no-repeat;
+    text-align: center;
+    padding: 10% 0 11% 0;
+    color: #fff;
+    color: rgba(255,255,255,0.7);
+}
+
+main h1{
+    padding: 7% 0 3% 0;
+    font-size: 8vh;
+}
+
+main p{
+    padding-bottom: 2%;
+}
+
+/* == Buttons == */
+
+#rm{
+    background-color: #745cf9;
+    border: none;
+    padding: 1% 2.8%;
+    color: #fff
+}
+
+#rm:hover{
+    background-color: #5234f9;
+}
+
+#dn{
+    border: 1px solid #fff;
+    padding: 1% 2%;
+    background-color: transparent;
+    color: #fff;
+}
