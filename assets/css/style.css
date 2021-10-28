@@ -65,7 +65,7 @@ a{
 main{
     background: url(../img/1.jpeg) center/cover no-repeat;
     text-align: center;
-    padding: 10% 0 11% 0;
+    padding: 10% 0 10% 0;
     color: #fff;
     color: rgba(255,255,255,0.7);
 }
@@ -77,6 +77,10 @@ main h1{
 
 main p{
     padding-bottom: 2%;
+}
+
+div{
+    padding: 0 0 1% 0;
 }
 
 /* == Buttons == */
