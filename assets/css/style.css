@@ -16,6 +16,7 @@ Die Farbe des Button:hover “Read more” ist: #5234f9
 
 header{
     height: 76px;
+    
 }
 
 nav{
@@ -23,8 +24,13 @@ nav{
     justify-content: space-around;
     border-bottom: 1px solid #666;
     border-top: 2px solid #666;
-    padding: 1.6%;
+    padding: 1.55%;
     align-items: baseline;
+
+    width: 100%;
+    position: fixed;
+    left: 0;
+
 }
 
 header nav ul {
